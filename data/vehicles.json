@@ -1,16 +1,16 @@
 [
     {
-        "id" : 1,
-        "name" : "Tesla Model s",
-        "type" : "car",
-        "price" : 100000,
-        "image" : "https://evdb.nz/wp-content/uploads/2021/09/tesla-model-s-used.jpg"
+        "id": 1,
+        "name": null,
+        "type": null,
+        "price": null,
+        "image": null
     },
     {
-        "id" : 2,
-        "name" : "Tesla Model s",
-        "type" : "car",
-        "price" : 100000,
-        "image" : "https://evdb.nz/wp-content/uploads/2021/09/tesla-model-s-used.jpg"
+        "id": 2,
+        "name": null,
+        "type": null,
+        "price": null,
+        "image": null
     }
 ]

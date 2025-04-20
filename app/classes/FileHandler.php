@@ -4,7 +4,7 @@ trait FileHandler{
     public function readJSON($file){
         if(file_exists($file)){
             $jsonFile = file_get_contents($file);
-            return json_decode($jsonFile);
+            return json_decode($jsonFile, true);
         }
 
         return false;

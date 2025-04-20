@@ -12,7 +12,7 @@ class VehicleManager extends VehicleBase implements VehicleAction{
         $vehicles =  $this->getVehicles();
         $data['id'] = uniqid();
         $vehicles[] = $data;
-        $this->writeJSON($this->file, $vehicles);
+        return $this->writeJSON($this->file, $vehicles);
 
     }
     public function editVehicle($id, $data){
@@ -23,7 +23,7 @@ class VehicleManager extends VehicleBase implements VehicleAction{
                 break;
             } 
         }
-        $this->writeJSON($this->file, $vehicles);
+        return $this->writeJSON($this->file, $vehicles);
     }
     public function deleteVehicle($id){
         $vehicles =  $this->getVehicles();
@@ -33,10 +33,10 @@ class VehicleManager extends VehicleBase implements VehicleAction{
                 break;
             } 
         }
-        $this->writeJSON($this->file, $vehicles);
+        return $this->writeJSON($this->file, $vehicles);
     }
     public function getVehicles(){
-        $this->readJSON($this->file);
+        return $this->readJSON($this->file);
     }
     public function getDetail(){
         return[
