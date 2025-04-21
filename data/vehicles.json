@@ -1,16 +1,16 @@
 [
     {
-        "id": 1,
-        "name": null,
-        "type": null,
-        "price": null,
-        "image": null
+        "name": "Tesla",
+        "type": "Car",
+        "price": "7000",
+        "image": "asdkf",
+        "id": "6805fce17af4a"
     },
     {
-        "id": 2,
-        "name": null,
-        "type": null,
-        "price": null,
-        "image": null
+        "name": "asdf",
+        "type": "dfasd",
+        "price": "546541",
+        "image": "asdfdsf",
+        "id": "6805fce934245"
     }
 ]

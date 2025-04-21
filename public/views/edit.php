@@ -39,22 +39,22 @@ include 'header.php';
             <form method="post">
                 <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">Name</label>
-                    <input type="text" class="form-control" id="name" aria-describedby="emailHelp"
+                    <input type="text" class="form-control" id="name" name="name"
                             value="<?php echo $vehicle['name'] ?>">
                 </div>
                 <div class="mb-3">
                     <label for="exampleInputPassword1" class="form-label">Type</label>
-                    <input type="text" class="form-control" id="type"
+                    <input type="text" class="form-control" id="type" name="type"
                         value="<?php echo $vehicle['type'] ?>">
                 </div>
                 <div class="mb-3">
                     <label for="exampleInputPassword1" class="form-label">Price</label>
-                    <input type="text" class="form-control" id="price"
+                    <input type="text" class="form-control" id="price" name="price"
                         value="<?php echo $vehicle['price'] ?>">
                 </div>
                 <div class="mb-3">
                     <label for="exampleInputPassword1" class="form-label">Image</label>
-                    <input type="text" class="form-control" id="image"
+                    <input type="text" class="form-control" id="image" name="image"
                         value="<?php echo $vehicle['image'] ?>">
                 </div>
                 <button type="submit" class="btn btn-primary">Save</button>
